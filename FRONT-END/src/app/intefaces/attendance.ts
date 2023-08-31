@@ -1,14 +1,10 @@
 export interface Teacher {
-  // Define the properties of the Teacher interface
-  // Add more properties if needed
   _id: string;
   name: string;
   firstName: string;
 }
 
 export interface Attendance {
-  // Define the properties of the Attendance interface
-  // Add more properties if needed
   _id: string;
   lessonName: string;
   topicName: string;
@@ -35,8 +31,6 @@ export interface Attendance {
 }
 
 export interface StudentDetails {
-  // Define the properties of the StudentDetails interface
-  // Add more properties if needed
   _id: string;
   firstName: string;
   lastName: string;
@@ -47,8 +41,6 @@ export interface StudentDetails {
 }
 
 export interface Parent {
-  // Define the properties of the Parent interface
-  // Add more properties if needed
   _id: string;
   students: StudentDetails[];
 }

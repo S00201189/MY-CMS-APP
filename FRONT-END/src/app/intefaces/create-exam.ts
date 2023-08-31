@@ -11,7 +11,7 @@ export interface Subject {
 export interface Class {
   _id: string;
   title: string;
-  students: any[]; // Update this with the appropriate type
+  students: any[]; 
 }
 
 export interface Teacher {
@@ -27,7 +27,7 @@ export interface FormData {
   class: string;
   department: string;
   subject: string;
-  students: any[]; // Update this with the appropriate type
+  students: any[];
   day: string;
   month: string;
   year: string;
